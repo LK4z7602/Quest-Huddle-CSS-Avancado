@@ -1,0 +1,71 @@
+@media(max-width: 1024px) {
+    body {
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        overflow-y: hidden;
+        margin: 30px;
+    }
+
+    header {
+        padding: 10px 0 20px 10px;
+        width: 100%;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
+    .logo-container img {
+        height: 44px;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;   
+    }
+    
+    .img-container img {
+        width: 350px;
+        margin-bottom: 40px;
+    }
+
+    .info-container {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-container h1{
+        font-size: 30px;
+        text-align: center;
+    } 
+
+    .info-container p {
+        text-align: center;
+    }
+
+    .info-container button {
+        width: 70%;
+        align-self: center;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        height: 15dvh;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+
+    }
+}
