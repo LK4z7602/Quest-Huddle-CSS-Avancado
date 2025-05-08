@@ -4,7 +4,7 @@
         background-repeat: no-repeat;
         background-position: center top;
         background-size: contain;
-        overflow-y: hidden;
+        overflow-x: hidden;
         margin: 30px;
     }
 
