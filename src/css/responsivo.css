@@ -5,6 +5,7 @@
         background-position: center top;
         background-size: contain;
         overflow-x: hidden;
+        overflow-y: visible;
         margin: 30px;
     }
 

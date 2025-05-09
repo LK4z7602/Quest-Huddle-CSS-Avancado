@@ -3,6 +3,7 @@ body {
     color: #fff;
     background-color: hsl(257, 40%, 49%);
     overflow-y: hidden;
+    overflow-x: hidden;
     background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%) center center no-repeat;
     background-size: contain;
     height: 100%;
